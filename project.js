@@ -33,6 +33,15 @@ const getNumberOfLines = () =>{
         }
     }
 }
+
+const getBet = (balance) => {
+    while (true) {
+        const bet = prompt("Enter total bet: ");
+        const numberBet = parseFloat(bet);
+
+    }
+}
+
 let balance  = deposit();
 const numberOfLines = getNumberOfLines ();
 
