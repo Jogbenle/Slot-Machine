@@ -39,6 +39,11 @@ const getBet = (balance) => {
         const bet = prompt("Enter total bet: ");
         const numberBet = parseFloat(bet);
 
+        if (isNaN(numberBet) ||  numberBet <= 0 || numberBet > balance) {
+            console.log("Invalid bet, try again");
+        } else {
+            return numberBet;
+        }
     }
 }
 
