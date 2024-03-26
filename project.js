@@ -64,6 +64,11 @@ const getBet = (balance, lines) => {
             return numberBet;
         }
     }
+};
+
+const spin = () => {
+    const symbols = [];
+    
 }
 
 let balance  = deposit();
