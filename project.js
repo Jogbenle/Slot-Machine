@@ -84,6 +84,7 @@ const spin = () => {
             reelSymbols.splice(randomIndex, 1);
         }
     }
+    return reels;
 };
 
 spin();
