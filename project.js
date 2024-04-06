@@ -91,7 +91,7 @@ const spin = () => {
 const transpose = (reels) => {
     const rows =[];
 
-    for (i=0; i< ROWS; i++){
+    for (let i=0; i< ROWS; i++){
         rows.push([]);
         for (let j=0; j<COLS; j++){
             rows[i].push(reels[j][i])
