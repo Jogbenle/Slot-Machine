@@ -101,6 +101,11 @@ const transpose = (reels) => {
     return rows
 }
 
+const printRows = (rows) => {
+    for (const row of rows){
+
+    }
+}
 
 let balance  = deposit();
 const numberOfLines = getNumberOfLines ();
