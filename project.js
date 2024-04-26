@@ -104,6 +104,9 @@ const transpose = (reels) => {
 const printRows = (rows) => {
     for (const row of rows){
         let rowString = "";
+        for (const[i, symbol] of rows.entries()){
+            rowString += symbol
+        }
     }
 }
 
