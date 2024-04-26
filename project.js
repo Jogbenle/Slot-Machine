@@ -103,7 +103,7 @@ const transpose = (reels) => {
 
 const printRows = (rows) => {
     for (const row of rows){
-        
+        let rowString = "";
     }
 }
 
